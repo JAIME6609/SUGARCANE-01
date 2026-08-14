@@ -1,0 +1,2 @@
+target_coverage,empirical_test_coverage,mean_interval_width_t_ha,conformal_radius_t_ha,calibration_sample_size,test_sample_size
+0.9,0.9030864197530865,4.507102966308594,2.2535515993073147,3240,3240

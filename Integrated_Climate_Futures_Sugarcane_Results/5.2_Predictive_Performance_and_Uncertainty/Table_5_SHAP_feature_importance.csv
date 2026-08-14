@@ -1,0 +1,31 @@
+feature,mean_absolute_shap
+climate_severity_index,6.9290695
+strategy_short_Integrated package,3.0053236
+strategy_short_Circular package,2.921875
+adoption_fraction,2.2011538
+temperature_anomaly_c,1.4652928
+strategy_short_Current,1.4437705
+strategy_short_Planting shift,1.2794223
+precipitation_change_fraction,1.2608751
+strategy_short_Harvest coordination,1.082433
+rainfall_cv,0.9123455
+strategy_short_Cultivar,0.7658854
+strategy_short_Water storage,0.69222766
+pest_pressure,0.6157619
+heatwave_days,0.6045069
+institutional_capacity,0.5811215
+strategy_short_Soil conservation,0.56159276
+strategy_short_Deficit irrigation,0.30398506
+co2_ppm,0.26981938
+flood_index,0.04953453
+discount_rate,0.035215847
+water_cost_usd_m3,0.024416948
+energy_price_index,0.023160698
+pathway_SSP2-4.5,0.021592742
+sugar_price_index,0.01588531
+input_cost_index,0.0143234655
+pathway_SSP5-8.5,0.008103793
+horizon_2055,0.0030275434
+horizon_2075,0.0028879954
+pathway_SSP1-2.6,0.0020914162
+horizon_2035,0.001196968

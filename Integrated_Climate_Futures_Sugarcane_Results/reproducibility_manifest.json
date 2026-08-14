@@ -1,0 +1,189 @@
+{
+  "chapter": "Integrated Climate Futures and Decision Support for Resilient Sugarcane",
+  "created_utc": "2026-08-14T18:04:53.495905+00:00",
+  "runtime_seconds": 17.771487979999996,
+  "configuration": {
+    "random_seed": 4901,
+    "n_scenarios": 1800,
+    "n_weight_samples": 3000,
+    "sobol_base_size": 512,
+    "planning_horizon_years": 15,
+    "baseline_potential_yield_t_ha": 108.0,
+    "soil_water_capacity_mm": 185.0,
+    "initial_soil_water_fraction": 0.7,
+    "target_conformal_coverage": 0.9,
+    "figure_dpi": 300,
+    "output_dir": "/mnt/data/Integrated_Climate_Futures_Sugarcane_Results"
+  },
+  "library_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "matplotlib": "3.10.8",
+    "xgboost": "3.1.3",
+    "shap": "0.50.0"
+  },
+  "files": [
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_1_Climate_scenario_envelope.png",
+      "size_bytes": 820085,
+      "sha256": "6be75b7d51888268b1ad269b7ea3428ffe463cac2cac50262b9cd91ebf851f8a"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_2_Yield_distributions_by_strategy.png",
+      "size_bytes": 151865,
+      "sha256": "f363ec1b9fbc74b53b64f4adea8c37c7beb76d08b6126f73935a08c1f77d511e"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_3_Combined_yield_response_surfaces.png",
+      "size_bytes": 124767,
+      "sha256": "3b067c3220b1be364b4847556a04213d5f4fb202979680616139f0d37c16891b"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_3a_Current_yield_response_surface.png",
+      "size_bytes": 124775,
+      "sha256": "13762b5cda182955d3ef26b21e3fb30d110410034d97d708c2024f72c2ee45af"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_3b_Integrated_package_yield_response_surface.png",
+      "size_bytes": 127056,
+      "sha256": "f5a8d6104ca8468a144a86ec2266ea505ff3f5c66857b2dcdcf2dff56ec0384e"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Figure_4_Water_use_tradeoffs.png",
+      "size_bytes": 169917,
+      "sha256": "a402a882c69b0f34dd07eda9d8ecbd2a819a1feb9d03f6c68c4fd5a4b1f84856"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Table_1_Climate_ensemble_summary.csv",
+      "size_bytes": 1788,
+      "sha256": "c4e843abcc6073e60d60862fbc205db13e94b6cda829d70ce4cbc3c7949f1235"
+    },
+    {
+      "relative_path": "5.1_Climate_and_System_Response/Table_2_Strategy_performance_summary.csv",
+      "size_bytes": 2471,
+      "sha256": "dca0dd56b5f09c87e440128900080c2d0db0e6aa0f78c509e582c03e02dc4e0f"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_5_Surrogate_parity_plot.png",
+      "size_bytes": 344807,
+      "sha256": "33fbc9baf419da406baa2753a129bcfe7d078fb4911ae6e678a8f7b3090e7537"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_6_SHAP_global_importance.png",
+      "size_bytes": 214540,
+      "sha256": "dd77d005779f2cb0cbc25d8ae69ce8568dca84477c7ea7142b0d60a21ee05b56"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_7_SHAP_dominant_feature_dependence.png",
+      "size_bytes": 253848,
+      "sha256": "52eb8fe38e91bcc97bc7f756d9082a974aef1249f84955546d20ad681313a4a9"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_8_Conformal_prediction_intervals.png",
+      "size_bytes": 169620,
+      "sha256": "94621cf38d5fea48188a02612d5ff66014c3b5bdfb7724dd852826ea84d1d185"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_9_Combined_global_sensitivity.png",
+      "size_bytes": 162254,
+      "sha256": "ae6302bcb78d8b15b8a9044e8c38d1286efb76aa14d0eb9122b11453228ed72a"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_9_npv_usd_ha_sensitivity.png",
+      "size_bytes": 158691,
+      "sha256": "4e0e1c886448b00a615954eabfd25802ae81337ed1a267231fcce8aedc3be695"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Figure_9_yield_t_ha_sensitivity.png",
+      "size_bytes": 156228,
+      "sha256": "c21ec91563275a32850615dad13b6638255666e5e7cfc9837eea6e6e7c0bc5b2"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Table_3_Surrogate_model_performance.csv",
+      "size_bytes": 418,
+      "sha256": "279313ae33381fd6ec90ec19a5ad178ccb87f8af0408643e53fe29b35db3c921"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Table_4_Conformal_interval_diagnostics.csv",
+      "size_bytes": 198,
+      "sha256": "b17b08537400111093b21934e6ba783468ef39c8729b58d2ab6ce9f2e824b54b"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Table_5_SHAP_feature_importance.csv",
+      "size_bytes": 982,
+      "sha256": "0b2adec693f53f3babdc7cdb0e5421741205c472a78384cb61849ded0a3e4475"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Table_6_Global_sensitivity_indices.csv",
+      "size_bytes": 1368,
+      "sha256": "466217a8df6338b43e9edcb2a88dcf83c6a38294d53ac1f6c6c714ef4b33b309"
+    },
+    {
+      "relative_path": "5.2_Predictive_Performance_and_Uncertainty/Test_set_predictions_and_intervals.csv",
+      "size_bytes": 1243674,
+      "sha256": "b1615a57a1a58e41c17ef1a24e8cdf356bd68f78e0ae0912fe2e50a0a4390612"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Figure_10_Robustness_expected_utility.png",
+      "size_bytes": 149348,
+      "sha256": "648d9de537a5fcbf310ebc05f047d8b6326232e1cbe7446a2bf2d5ac04579bcc"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Figure_11_NPV_GHG_Pareto_tradeoff.png",
+      "size_bytes": 162722,
+      "sha256": "0a7b43c91fc37d55493a8691058bc2706f07e0da6d74e3fdb72c7cca1bbf4a75"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Figure_12_Regret_heatmap.png",
+      "size_bytes": 182977,
+      "sha256": "6538f8a7b521c7e2d869df12c21421e964b17e0a790b70ec38d344c467e06a28"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Figure_13_Rank_acceptability.png",
+      "size_bytes": 147360,
+      "sha256": "8623e134a4380742509ba26fd0c44b6cd38538cf1b55fc2f2bcf73d1b55a9401"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Figure_14_Adaptive_pathway_map.png",
+      "size_bytes": 145581,
+      "sha256": "1469ac60b6ae1b59966efb858d6bd9a36f27a4b255b98fb246a5769cf543ed70"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Rank_acceptability_probabilities.csv",
+      "size_bytes": 1338,
+      "sha256": "eab5e65e3f35415d6c366a1f15465d0d68b7844deac4faf67cc8ec7366004a58"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Table_7_Robust_strategy_ranking.csv",
+      "size_bytes": 4234,
+      "sha256": "7a233c2318cffaebb83e1bb51b23bb581fc3c3788e04dd266228686accbee49f"
+    },
+    {
+      "relative_path": "5.3_Robust_Decisions_and_Adaptive_Pathways/Table_8_Adaptive_pathway_triggers.csv",
+      "size_bytes": 1194,
+      "sha256": "43d7120273f193d7e03e7b05a16261ff389322fb72e6367ee584163c9f47f9b4"
+    },
+    {
+      "relative_path": "Integrated_Climate_Futures_Sugarcane_Results.xlsx",
+      "size_bytes": 21204,
+      "sha256": "18efb1ada7d68f33a8e44ef71b3c54f0c8151f2b8982f474d99f182c95d93c31"
+    },
+    {
+      "relative_path": "README.md",
+      "size_bytes": 1183,
+      "sha256": "c1f741d383707c3f93f8adcd9f1005449bef4e8c4ff682485d16ea0da3042962"
+    },
+    {
+      "relative_path": "data/scenario_strategy_performance.csv",
+      "size_bytes": 12445505,
+      "sha256": "beec38c113aa585f7d293a1a747922ca6ce94ed1456915ab0b929c70fee63d6f"
+    },
+    {
+      "relative_path": "data/synthetic_climate_scenarios.csv",
+      "size_bytes": 582591,
+      "sha256": "1aa2cf7d59562197ec40cce20627576788ba0445e4c46103d4e246cab911fe5e"
+    }
+  ]
+}
